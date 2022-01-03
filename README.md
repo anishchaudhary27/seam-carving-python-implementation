@@ -1,7 +1,7 @@
 # Sean Carving for Content-Aware Image Resizing Python Implementation
 Sean carving is an algorithm that can be used to resize images. But instead of cropping or squeezing images, it removes blank spaces and brings important objects closer.
 
-Based Sean carving Algorith discussed in [this research paper](https://www.researchgate.net/publication/215721610_Seam_Carving_for_Content-Aware_Image_Resizing)
+Based Sean carving Algorithm discussed in [this research paper](https://www.researchgate.net/publication/215721610_Seam_Carving_for_Content-Aware_Image_Resizing)
 
 ### Original image (width - 807px)
 ![Original image (width - 807px)](/sample.jpg)
