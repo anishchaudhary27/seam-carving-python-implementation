@@ -1,4 +1,4 @@
-# Seam Carving for Content-Aware Image Resizing Python Implementation
+# Python implementation of seam carving for content-aware image resizing 
 Seam carving is an algorithm that can be used to resize images. But instead of cropping or squeezing images, it removes blank spaces and brings important objects closer.
 
 Based on Seam carving Algorithm discussed in [this paper](https://www.researchgate.net/publication/215721610_Seam_Carving_for_Content-Aware_Image_Resizing)
