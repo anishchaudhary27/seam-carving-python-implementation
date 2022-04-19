@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-# from scipy.ndimage.filters import gaussian_filter
 
 
 def compute_min_cost_dir(img):
@@ -8,7 +7,6 @@ def compute_min_cost_dir(img):
 
     img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     img_blurred = img_grey
-    # img_blurred = gaussian_filter(img_grey, sigma=3)
 
     x_kernel = np.array([[-0.125, 0., 0.125],
                          [-0.25, 0., 0.25],
@@ -89,4 +87,5 @@ while width > target:
 
     img = new_img
 
-cv2.imwrite(img_name + "_result.jpg", img)
+cv2.imwrite(img_name.split(".")[0] + "_result.jpg", img)
+print("done! resized image saved as " + img_name.split(".")[0] + "_result.jpg")
